@@ -5,7 +5,7 @@
 Enter develop mode using nix command:
 
 ```console
-nix develop -c zsh
+nix develop
 ```
 
 Setup google cloud CLI access:
