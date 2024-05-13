@@ -6,6 +6,7 @@ const guestBookNamespace = new k8s.core.v1.Namespace("guestbook", {
     },
 })
 
+// https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#applications
 const guestBookRepo = new k8s.yaml.ConfigGroup("example", {
     yaml: `
 apiVersion: argoproj.io/v1alpha1
