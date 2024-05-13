@@ -31,6 +31,9 @@ const primaryPreemptibleNodes = new gcp.container.NodePool("primary_preemptible_
     location: defaultLocation,
     cluster: primary.name,
     nodeCount: 1,
+    // This is also configured to have only zone to minimize costs.
+    // Otherwise by default GKE cluster would have 3 availability zones
+    // with 3 nodes running, which is an excess for this test project.
     nodeLocations: [
         defaultLocation + "-a",
     ],
