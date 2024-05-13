@@ -45,6 +45,14 @@ pulumi up \
   --yes
 ```
 
+Clean up deployments:
+
+```console
+pulumi destroy --cwd deploy-argocd-apps --stack dev --yes && \
+pulumi destroy --cwd deploy-argocd --stack dev --yes && \
+pulumi destroy --cwd deploy-gke --stack dev --yes
+```
+
 ## Prepare
 
 These are the imperative configurations done to tweak and set this repo up.
@@ -83,6 +91,7 @@ Create gh repo:
 
 ```console
 gh repo create deploy-argocd-on-gke
+git remote add origin https://github.com/ivankovnatsky/deploy-argocd-on-gke
 ```
 
 ## TODO
