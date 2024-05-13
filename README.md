@@ -20,7 +20,7 @@ region.
 
 Deploy GKE:
 
-```
+```console
 pulumi up \
   --cwd deploy-gke \
   --stack dev \
@@ -112,6 +112,7 @@ other tools
 
 ## References
 
+* https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10
 * https://www.pulumi.com/registry/packages/gcp/api-docs/container/cluster/#with-a-separately-managed-node-pool-recommended
 * https://www.pulumi.com/registry/packages/kubernetes/api-docs/kustomize/directory/
 * https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/#kustomize
