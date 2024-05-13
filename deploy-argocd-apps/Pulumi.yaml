@@ -1,0 +1,3 @@
+name: deploy-argocd-apps
+runtime: nodejs
+description: Deploy Argo CD Apps
