@@ -106,7 +106,7 @@ other tools
 - [ ] Configure Argo CD app that will point to a private git repo
   - [ ] Add a private repo
   - [ ] Configure sealed-secrets to deploy that configuration
-- [ ] Add a CI that would deploy GKE and Argo CD as well
+- [ ] Add a CI that would deploy GKE and Argo CD and it's apps
   - [ ] Configure secrets and other items
 - [ ] Any way to share node_modules between projects?
 
