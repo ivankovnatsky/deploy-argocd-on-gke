@@ -92,6 +92,8 @@ Create gh repo:
 ```console
 gh repo create deploy-argocd-on-gke
 git remote add origin https://github.com/ivankovnatsky/deploy-argocd-on-gke
+gh repo edit --description "Sample small project to deploy GKE, Argo CD and \
+  configure simple public GitHub repo in Argo"
 ```
 
 ## TODO
